@@ -44,10 +44,10 @@ from pyromod.helpers import ikb
 # -----------------------------------------------------------------------------
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8398354970:AAHqgmpKPptjDgI_Ogs1fKnBgfPi4N8SoR4")
-API_ID = int(os.environ.get("API_ID", "14185021"))
-API_HASH = os.environ.get("API_HASH", "b29b81f8a9f892ff457df8f3372489fc")
+API_ID = int(os.environ.get("API_ID", "23656977"))
+API_HASH = os.environ.get("API_HASH", "49d3f43531a92b3f5bc403766313ca1e")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003091756917"))
-MUST_JOIN = int(os.environ.get("MUST_JOIN", -1002904278551))
+MUST_JOIN = int(os.environ.get("MUST_JOIN", 2904278551))
 AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6689435577").split())
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://nora:nora@nora.f0ea0ix.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "memadder")
