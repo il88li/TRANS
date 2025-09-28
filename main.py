@@ -43,7 +43,7 @@ from pyromod.helpers import ikb
 # 1. Configuration Variables
 # -----------------------------------------------------------------------------
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8398354970:AAHqgmpKPptjDgI_Ogs1fKnBgfPi4N8SoR4")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8398354970:AAGhbKVcGKN2X4QsKI_T9Dqxb1yRG1iDtP4")
 API_ID = int(os.environ.get("API_ID", "23656977"))
 API_HASH = os.environ.get("API_HASH", "49d3f43531a92b3f5bc403766313ca1e")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003091756917"))
