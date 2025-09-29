@@ -221,9 +221,9 @@ async def handle_phone_input(client, message, phone_number, data_manager):
         await message.reply_text(
             "❌ رقم الهاتف غير صحيح.\n\n"
             "يرجى التأكد من:\n"
-            • استخدام التنسيق الدولي مع +\n"
-            • أن الرقم مسجل في تليجرام\n"
-            • إعادة إرسال الرقم بشكل صحيح\n\n"
+            "• استخدام التنسيق الدولي مع +\n"
+            "° أن الرقم مسجل في تليجرام\n"
+            "• "إعادة إرسال الرقم بشكل صحيح\n\n"
             "مثال: +201234567890"
         )
         if user_id in user_states:
