@@ -218,7 +218,7 @@ async def handle_phone_input(client, message, phone_number, data_manager):
         )
         
     except PhoneNumberInvalid:
-        await message.reply_text(
+        await message.reply_text()
             "❌ رقم الهاتف غير صحيح.\n\n"
             "يرجى التأكد من:\n"
             "• استخدام التنسيق الدولي مع +\n"
