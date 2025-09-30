@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 # بيانات البوت
 API_ID = 23656977
 API_HASH = '49d3f43531a92b3f5bc403766313ca1e'
-BOT_TOKEN = '8228285723:AAHwfs_M8b4bnxgJPmjMNtR1nm0P6yoLEDk'
+BOT_TOKEN = '8052900952:AAEmgVIJ2igX3fA5KAXs06xtZ5OeQjIXMjk'
 
 # رابط الويب هووك الجديد
 WEBHOOK_URL = 'https://trans-2-77.onrender.com'
