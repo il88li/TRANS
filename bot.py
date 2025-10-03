@@ -490,7 +490,7 @@ async def rotate_transfer_process(user_id, valid_accounts, target, original_even
                 logger.info(f"User {user_id} - Account {account_data['phone']}: Transferred {total_transferred}, Failed {total_failed}")
                 
                 # تأخير 30 ثانية بين كل عملية نقل
-                await asyncio.sleep(30)
+                await asyncio.sleep(300)
         
         # إنهاء العملية
         active_processes = load_active_processes()
