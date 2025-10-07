@@ -1,4 +1,5 @@
-python-telegram-bot[job-queue]==20.8
-telethon==1.29.3
-SQLAlchemy==1.4.49
-aiofiles==23.2.1
+telethon
+pyrogram
+tgcrypto
+pytz
+asyncio
