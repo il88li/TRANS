@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 # بيانات البوت
 API_ID = 23656977
 API_HASH = '49d3f43531a92b3f5bc403766313ca1e'
-BOT_TOKEN = '8228285723:AAGLH7ljG2lyMQ6SaMVZVqf-Y44zVdMLDRo'
+BOT_TOKEN = '8228285723:AAGx2iHSqJSQYcUL6AaL48vdIDIm86oUpuU'
 
 # المستخدم المسموح فقط
 ALLOWED_USER_ID = 6689435577
