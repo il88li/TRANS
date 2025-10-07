@@ -5,7 +5,7 @@ from pyrogram import Client as PyroClient
 from pyrogram.errors import UserDeactivated, ChatWriteForbidden, FloodWait
 
 # ---------- الإعدادات العامة ----------
-BOT_TOKEN   = os.getenv("BOT_TOKEN",   "8052900952:AAEvZKao98ibPDlUqxBVcj6In1YOa4cbW18")
+BOT_TOKEN   = os.getenv("BOT_TOKEN",   "8293003270:AAFMKUKzjHwl0lMDQOYWdQYYppuEAfIoo28")
 API_ID      = int(os.getenv("API_ID",  "23656977"))
 API_HASH    = os.getenv("API_HASH",    "49d3f43531a92b3f5bc403766313ca1e")
 ADMIN       = int(os.getenv("ADMIN",   "6689435577"))
