@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 # بيانات البوت
 API_ID = 23656977
 API_HASH = '49d3f43531a92b3f5bc403766313ca1e'
-BOT_TOKEN = '8228285723:AAHwfs_M8b4bnxgJPmjMNtR1nm0P6yoLEDk'
+BOT_TOKEN = '8228285723:AAGLH7ljG2lyMQ6SaMVZVqf-Y44zVdMLDRo'
 
 # المستخدم المسموح فقط
 ALLOWED_USER_ID = 6689435577
@@ -490,7 +490,7 @@ async def rotate_transfer_process(user_id, valid_accounts, target, original_even
                 logger.info(f"User {user_id} - Account {account_data['phone']}: Transferred {total_transferred}, Failed {total_failed}")
                 
                 # تأخير 30 ثانية بين كل عملية نقل
-                await asyncio.sleep(300)
+                await asyncio.sleep(600)
         
         # إنهاء العملية
         active_processes = load_active_processes()
