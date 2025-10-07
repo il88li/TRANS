@@ -68,7 +68,7 @@ class AdminAction(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
 
 # إعدادات البوت
-BOT_TOKEN = "8052900952:AAEvZKao98ibPDlUqxBVcj6In1YOa4cbW18"
+BOT_TOKEN = "8293003270:AAFMKUKzjHwl0lMDQOYWdQYYppuEAfIoo28"
 API_ID = 23656977
 API_HASH = "49d3f43531a92b3f5bc403766313ca1e"
 ADMIN_ID = 6689435577
